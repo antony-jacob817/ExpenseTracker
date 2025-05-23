@@ -1,12 +1,12 @@
 import React from 'react';
-import { Receipt, ArrowDown } from 'lucide-react';
+import { ReceiptIndianRupee, ArrowDown } from 'lucide-react';
 
 const EmptyState: React.FC = () => {
   return (
     <div className="card empty-state">
       <div className="flex flex-col items-center justify-center space-y-4">
         <div className="bg-blue-100 dark:bg-blue-900/30 p-6 rounded-full">
-          <Receipt className="h-16 w-16 text-blue-500 dark:text-blue-400" />
+          <ReceiptIndianRupee  className="h-16 w-16 text-blue-500 dark:text-blue-400" />
         </div>
         
         <div className="text-center space-y-2 max-w-md">

@@ -74,7 +74,7 @@ function getCategoryIncreaseTip(category: string, percentChange: number): string
 function getCategoryDecreaseTip(category: string, percentChange: number): string {
   const tips = {
     'Food': `🥗 Great job! You reduced Food spending by ${percentChange}%. Keep up those healthy home cooking habits.`,
-    'Transport': `🚲 You decreased Transport costs by ${percentChange}%. Your wallet (and the environment) thanks you!`,
+    'Transport': `🚲 You decreased Transport costs by ${percentChange}%. Your wallet (and the environment) thank you!`,
     'Entertainment': `🎮 Entertainment expenses dropped by ${percentChange}%. It's good to find balance between fun and saving.`,
     'Shopping': `👛 Well done! Shopping expenses decreased by ${percentChange}%. Your future self will thank you for saving.`,
     'Housing': `🏡 You reduced Housing costs by ${percentChange}%. Smart moves on managing your biggest expense category.`,
